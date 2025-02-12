@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BMICalculatorDemo.MainPage">
+
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#00AFB9" Offset="0.0" />
+            <GradientStop Color="#FED9B7" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="20">
+            <!-- Title -->
+            <Label Text="BMI Calculator"
+                   FontSize="32"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   TextColor="White"
+                   Margin="0,10,0,0" />
+
+            <!-- Gender Selector -->
+            <Frame CornerRadius="10">
+                <Frame.Shadow>
+                    <Shadow Brush="Black" Opacity="0.3" />
+                </Frame.Shadow>
+                <VerticalStackLayout Padding="10">
+                    <Label Text="Select Gender:" FontSize="20" TextColor="#333" HorizontalOptions="Center" />
+                    <Picker x:Name="GenderPicker" Title="Choose Gender" HorizontalOptions="Fill">
+                        <Picker.Items>
+                            <x:String>Male</x:String>
+                            <x:String>Female</x:String>
+                        </Picker.Items>
+                    </Picker>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Weight Input -->
+            <Frame CornerRadius="10">
+                <Frame.Shadow>
+                    <Shadow Brush="Black" Opacity="0.3" />
+                </Frame.Shadow>
+                <VerticalStackLayout Padding="10">
+                    <Label Text="Enter Weight (kg):" FontSize="20" TextColor="#333" />
+                    <Entry x:Name="WeightEntry" Keyboard="Numeric" Placeholder="e.g., 70" BackgroundColor="Transparent" />
+
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Height Input -->
+
+            <Frame CornerRadius="10">
+                <Frame.Shadow>
+                    <Shadow Brush="Black" Opacity="0.3" />
+                </Frame.Shadow>
+                <VerticalStackLayout Padding="10" >
+                    <Label Text="Enter Height (cm):" FontSize="20" TextColor="#333" />
+                    <Entry x:Name="HeightEntry" Keyboard="Numeric" Placeholder="e.g., 175" BackgroundColor="Transparent" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Calculate Button -->
+            <Button Text="Calculate BMI"
+                    Clicked="OnCalculateBMI"
+                    BackgroundColor="#FD3A69"
+                    TextColor="White"
+                    FontSize="20"
+                    CornerRadius="10" />
+
+            <!-- Result Display -->
+            <Border Background="White" Stroke="{x:Null}" StrokeShape="RoundRectangle">
+                <Border.Shadow>
+                    <Shadow Brush="Black" Opacity="0.3" />
+                </Border.Shadow>
+                <Label x:Name="ResultLabel"
+                       FontSize="24"
+                       TextColor="#333"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"
+                       Opacity="0"
+                       Padding="15" />
+            </Border>
+
+            <!-- About Developer Section -->
+            <Frame CornerRadius="15" Padding="0">
+                <Frame.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="#FF6B6B" Offset="0.0" />
+                        <GradientStop Color="#FFD166" Offset="1.0" />
+                    </LinearGradientBrush>
+                </Frame.Background>
+                <Frame.Shadow>
+                    <Shadow Brush="Black" Opacity="0.3" />
+                </Frame.Shadow>
+                <VerticalStackLayout x:Name="AboutSection" Opacity="0" Padding="15">
+                    <Label Text="Developed by Rohan Alom"
+               FontSize="16"
+               TextColor="White"
+               HorizontalOptions="Center"
+               FontAttributes="Bold"/>
+                    <Label Text="Visit my GitHub"
+               TextColor="White"
+               FontSize="14"
+               HorizontalOptions="Center"
+               FontAttributes="Italic">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnGitHubTapped" />
+                        </Label.GestureRecognizers>
+                    </Label>
+                </VerticalStackLayout>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
