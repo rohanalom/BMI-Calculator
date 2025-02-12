@@ -4,9 +4,9 @@ A simple and stylish BMI (Body Mass Index) Calculator built using .NET MAUI. Thi
 
 ## 📸 Screenshots
 <p align="center">
-    <img src="[screenshots/screen1.png](https://github.com/rohanalom/BMI-Calculator/blob/main/appss1.jpg)" width="30%" />
-    <img src="[screenshots/screen2.png](https://github.com/rohanalom/BMI-Calculator/blob/main/appss2.jpg)" width="30%" />
-    <img src="[screenshots/screen3.png](https://github.com/rohanalom/BMI-Calculator/blob/main/appss3.jpg)" width="30%" />
+    <img src="https://github.com/rohanalom/BMI-Calculator/blob/main/appss1.jpg" width="30%" />
+    <img src="https://github.com/rohanalom/BMI-Calculator/blob/main/appss2.jpg" width="30%" />
+    <img src="https://github.com/rohanalom/BMI-Calculator/blob/main/appss3.jpg" width="30%" />
 </p>
 
 ## ✨ Features
