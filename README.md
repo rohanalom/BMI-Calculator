@@ -4,6 +4,7 @@ A simple and stylish BMI (Body Mass Index) Calculator built using .NET MAUI. Thi
 
 ## 📸 Screenshots
 ![BMI Calculator Screenshot](https://github.com/rohanalom/BMI-Calculator/blob/main/appss1.jpg)
+![BMI Calculator Screenshot](https://github.com/rohanalom/BMI-Calculator/blob/main/appss2.jpg) ![BMI Calculator Screenshot](https://github.com/rohanalom/BMI-Calculator/blob/main/appss3.jpg)
 
 ## ✨ Features
 - Smooth UI with gradient background
