@@ -3,8 +3,11 @@
 A simple and stylish BMI (Body Mass Index) Calculator built using .NET MAUI. This app allows users to calculate their BMI based on their weight and height while providing gender-specific categorization.
 
 ## 📸 Screenshots
-![BMI Calculator Screenshot](https://github.com/rohanalom/BMI-Calculator/blob/main/appss1.jpg)
-![BMI Calculator Screenshot](https://github.com/rohanalom/BMI-Calculator/blob/main/appss2.jpg) ![BMI Calculator Screenshot](https://github.com/rohanalom/BMI-Calculator/blob/main/appss3.jpg)
+<p align="center">
+    <img src="[screenshots/screen1.png](https://github.com/rohanalom/BMI-Calculator/blob/main/appss1.jpg)" width="30%" />
+    <img src="[screenshots/screen2.png](https://github.com/rohanalom/BMI-Calculator/blob/main/appss2.jpg)" width="30%" />
+    <img src="[screenshots/screen3.png](https://github.com/rohanalom/BMI-Calculator/blob/main/appss3.jpg)" width="30%" />
+</p>
 
 ## ✨ Features
 - Smooth UI with gradient background
