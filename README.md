@@ -3,7 +3,7 @@
 A simple and stylish BMI (Body Mass Index) Calculator built using .NET MAUI. This app allows users to calculate their BMI based on their weight and height while providing gender-specific categorization.
 
 ## 📸 Screenshots
-(Add screenshots here if needed)
+![BMI Calculator Screenshot](https://github.com/rohanalom/BMI-Calculator/blob/main/appss1.jpg)
 
 ## ✨ Features
 - Smooth UI with gradient background
